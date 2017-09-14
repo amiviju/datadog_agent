@@ -1,6 +1,7 @@
-# Cookbook:: Datadog_agents
-# Recipe:: default
+# Cookbook:: datadog_agent
+# Recipe:: ubuntu_datadog
 # Copyright:: 2017, The Authors, All Rights Reserved.
+
 execute 'update' do
   command 'apt-get update -y'
 end
