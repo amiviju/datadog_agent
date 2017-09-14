@@ -1,6 +1,7 @@
 # Cookbook:: datadog_agent
-# Recipe:: default
+# Recipe:: linux_datadog
 # Copyright:: 2017, The Authors, All Rights Reserved.
+
 execute 'update' do
   command 'yum update -y'
 end
