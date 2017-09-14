@@ -3,7 +3,7 @@
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
 case node['platform']
-when "centos","redhat","amazon"
+when 'centos', 'redhat', 'amazon'
   include_recipe 'datadog_agent::linux_datadog'
 end
 case node['platform']
