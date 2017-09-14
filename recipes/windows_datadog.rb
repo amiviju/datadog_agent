@@ -1,7 +1,5 @@
-#
-# Cookbook:: datadog
-# Recipe:: default
-#
+# Cookbook:: datadog_agent
+# Recipe:: windows_datadog
 # Copyright:: 2017, The Authors, All Rights Reserved
 
 remote_file 'C:\Windows\Temp\ddagent-cli-latest.msi' do
